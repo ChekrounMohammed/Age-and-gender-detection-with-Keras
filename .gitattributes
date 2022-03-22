@@ -1,0 +1,4 @@
+.h5 filter=lfs diff=lfs merge=lfs -text
+<age.h5> filter=lfs diff=lfs merge=lfs -text
+<gender.h5> filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
