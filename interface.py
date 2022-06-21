@@ -18,7 +18,7 @@ def age():
 	global panelA
 	global window
 	import tensorflow as tf
-	model = tf.keras.models.load_model("C:/Users/ATLAS PRO ELECTRO/Desktop/PFE/age new/age5.h5")
+	model = tf.keras.models.load_model("age5.h5")
 	image_path = filepath
 	img = cv2.imread(image_path)
 	img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
@@ -65,7 +65,7 @@ def gender():
 	global panelA
 	global window
 	class_names=['male', 'female']
-	model = tf.keras.models.load_model("C:/Users/ATLAS PRO ELECTRO/Desktop/PFE/gender.h5")
+	model = tf.keras.models.load_model("gender.h5")
 	image_path = filepath
 	img = cv2.imread(image_path)
 	img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
